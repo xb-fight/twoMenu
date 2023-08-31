@@ -1,0 +1,29 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 5px 0;
+    transition: .5s;
+}
+
+.submenu{
+    display: none;
+}
+
+.submenu li {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-bottom: 0;
+}
+
+.submenu li:last-child{
+    border: 2px solid #ccc;
+}
